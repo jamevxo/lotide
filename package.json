@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@jamevxo/lotide",
   "version": "1.0.0",
-  "description": "midnight june 10",
+  "description": "Lodash clone = Lotide",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -16,7 +16,7 @@
   "keywords": [
     "lotide"
   ],
-  "author": "jamevxo",
+  "author": "@jamevxo",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jamevxo/lotide/issues"
