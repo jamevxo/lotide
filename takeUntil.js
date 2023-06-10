@@ -43,6 +43,10 @@ const takeUntil = function(array, callback) {
   return results;
 };
 
+module.exports = takeUntil;
+
+/* TEST CODE FOLLOWS
+
 const faceBook = ['F', 'A', 'C', 'E', 'B', 'O', 'O', 'K', '.', 'C', 'O', 'M'];
 const result1 = takeUntil(faceBook, item => item === '.');
 
@@ -57,3 +61,4 @@ const expected2 = [1, 3, 5, 7, 9];
 
 assertArraysEqual(result2, expected2);
 
+*/

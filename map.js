@@ -49,6 +49,9 @@ const map = function(array, callback) {
   return results;
 };
 
+module.exports = map;
+
+/* TEST
 const results1 = map(words, word => word[0]);
 console.log(results1);
 
@@ -77,3 +80,5 @@ const expected4 = [11, 16, 28];
 const results4 = map(longWords, x => x.length);
 
 assertArraysEqual(results4, expected4);
+
+*/

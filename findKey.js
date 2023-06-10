@@ -17,6 +17,10 @@ const findKey = function(object, callback) {
   return undefined;
 };
 
+module.exports = findKey;
+
+/* tests
+
 noma = findKey({
   "Blue Hill": { stars: 1 },
   "Akaleri":   { stars: 3 },
@@ -40,3 +44,5 @@ tooMany = findKey({
 
 expected2 = 'undefined'
 assertEqual(tooMany, undefined)
+
+*/

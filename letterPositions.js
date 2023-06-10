@@ -15,10 +15,11 @@ const letterPositions = function(sentence) {
   return results;
 };
 
+module.exports = letterPositions;
 
 
 
-// Function Implementation
+// Function Implementation assertEqual
 const assertEqual = function(actual, expected)  {
   if (actual === expected) {
     console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
@@ -52,5 +53,5 @@ const assertArraysEqual = function(array1, array2) {
 };
 
 
-assertArraysEqual(letterPositions("hello").e, [1]);
+// assertArraysEqual(letterPositions("hello").e, [1]);
 
