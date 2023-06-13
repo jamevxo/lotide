@@ -30,16 +30,16 @@ The following functions are currently implemented:
 * `tail(array)`: Function to return a new array with all elements except the first. Takes an array as a parameter and returns a new array starting from index 1 to the end.
 * `middle(array)`: Function to return the middle element(s) of an array. Takes an array as a parameter and returns a new array with the middle element(s) of the input array. If the input array has an odd length, a single middle element is returned. If the input array has an even length, two middle elements are returned.
 * `eqArrays(array1, array2)`:  Function to check if two arrays are equal. Takes two arrays as parameters and returns a boolean value indicating whether the two arrays are equal in terms of their elements and order.
-* `assertEqual`: Asserts if two values are equal.
-* `assertObjectsEqual`: Asserts if two objects are equal.
-* `countLetters`: Counts the occurrences of each letter in a string.
-* `countOnly`: Counts occurrences of specific elements in an array based on a given object.
-* `assertArraysEqual`: Asserts if two arrays are equal.
-* `eqObjects`: Checks if two objects are equal.
-* `findKey`: Retrieves the key of a value in an object based on a callback function.
-* `findKeyByValue`: Retrieves the key of a value in an object.
-* `flatten`: Flattens a nested array into a single  level array.
-* `letterPositions`: Returns the indices of each letter in a string.
-* `map`: Transforms the elements of an array based on a callback function.
-* `takeUntil`: Returns a new array with elements until a specified condition is met.
-* `without`: Returns a new array with specified elements removed.
+* `assertEqual(actual, expected)`: Function to assert if two values are equal. Takes two values as parameters and logs a message indicating whether they are equal or not.
+* `assertObjectsEqual(actual, expected)`: Function to assert if two objects are equal. Takes two objects as parameters and logs a message indicating whether they are equal or not.
+* `countLetters(sentence)`: Function to count the occurrences of each letter in a sentence (string). Takes a string as a parameter and returns an object with the count of each letter.
+* `countOnly(allItems, itemsToCount)`: Function to count occurrences of specific elements in an array based on a given object. Takes an array of all items and an object specifying which items to count. Returns an object with the count of each specified item.
+* `assertArraysEqual(array1, array2)`: Function to assert if two arrays are equal. Takes two arrays as parameters and logs a message indicating whether they are equal or not.
+* `eqObjects(object1, object2)`: Function to check if two objects are equal. Takes two objects as parameters and returns a boolean value indicating whether the two objects are equal in terms of their keys and values.
+* `findKey(object, callback)`: Function to retrieve the key of a value in an object based on a callback function. Takes an object and a callback function as parameters. Returns the first key in the object for which the callback function returns a truthy value, or `undefined` if no such key is found.
+* `findKeyByValue(object, value)`: Function to retrieve the key of a value in an object. Takes an object and a value as parameters. Returns the first key in the object that matches the specified value, or `undefined` if no such key is found.
+* `flatten(array)`: Function to flatten a nested array into a single level array. Takes a nested array as a parameter and returns a new array with all the elements flattened into a single level.
+* `letterPositions(sentence)`: Function to return the indices of each letter in a sentence (string). Takes a string as a parameter and returns an object where each key is a letter in the string, and the corresponding value is an array of indices where the letter occurs.
+* `map(array, callback)`: Function to transform the elements of an array based on a callback function. Takes an array and a callback function as parameters. Returns a new array with the results of applying the callback function to each element of the input array.
+* `takeUntil(array, callback)`: Function to return a new array with elements until a specified condition is met. Takes an array and a callback function as parameters. Returns a new array containing the elements of the input array until the callback function returns a truthy value.
+* `without(source, itemsToRemove)`: Function to return a new array with specified elements removed. Takes a source array and an array of items to remove as parameters. Returns a new array with all occurrences of the items to remove removed from the source array.
