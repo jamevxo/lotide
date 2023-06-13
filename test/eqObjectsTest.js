@@ -1,4 +1,5 @@
 const eqObjects = require('../eqObjects');
+const assertEqual = require('../assertEqual');
 
 //test code
 
