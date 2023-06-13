@@ -2,7 +2,7 @@
 const middle = function(array)  {
   let output = []; // empty string
   if (array.length < 3) {
-    return output; //returns empty stirng if length less than 3
+    return output; //returns empty string if length less than 3
   }
   if ((array.length % 2) !== 0) {
     let x = Math.ceil(array.length / 2) - 1; // gives us the index of the middle value
